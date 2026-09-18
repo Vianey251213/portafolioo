@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Mi Portafolio Digital | Denisse Vianey Jara</title>
+
+    <link rel="stylesheet" href="css/portafolio.css" />
+    <link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- =========================
+             ENCABEZADO
+        ========================== -->
+
+        <header>
+
+            <div class="profile-section">
+
+                <div class="profile-img">
+                    <img 
+                        src="img/foto.jpg" 
+                        alt="Foto de perfil de Denisse Vianey Jara"
+                        style="width: 100%; height: 100%; border-radius: 50%;"
+                    />
+                </div>
+
+                <h1>Denisse Vianey Jara</h1>
+        <p class="subtitle">
+            ¡Bienvenido(a) a mi portafolio! Soy Ingeniera en Gestión y Desarrollo de Software,
+            con interés en desarrollo web, diseño de soluciones digitales y tecnología.
+            Aquí encontrarás proyectos académicos y profesionales que reflejan mi
+            experiencia, aprendizaje y compromiso con la mejora continua.
+        </p>
+
+<div class="contact-info">
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=denissevianeyjara@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-item">
+        📧 denissevianeyjara@gmail.com
+    </a>
+
+    <a href="tel:+526691178133" class="contact-item">
+        📱 +52 669 117 8133
+    </a>
+
+    <a href="https://www.linkedin.com/in/denisse-vianey-jara-33b754421/" target="_blank" rel="noopener noreferrer" class="contact-item">
+        💼 LinkedIn
+    </a>
+</div>
+
+            </div>
+
+        </header>
+
+
+        <!-- =========================
+             PROYECTOS
+        ========================== -->
+
+        <section class="projects-section" id="projects">
+
+            <h2 class="section-title">Proyectos</h2>
+
+            <div class="projects-grid">
+
+
+                <!-- =================================
+                     PROYECTO 1 - BABYIMMA
+                ================================== -->
+
+                <div class="project-card">
+
+                    <div 
+                        class="project-image"
+                        onclick="openModal('modal1')"
+                        role="button"
+                        tabindex="0"
+                        aria-label="Ver imágenes del Análisis de Requerimientos BabyIMMA"
+                    >
+
+                        <img 
+                            src="img/21analisis.png"
+                            alt="Análisis de Requerimientos BabyIMMA"
+                            style="width:100%; height:100%; border-radius:15px; object-fit:cover;"
+                        />
+
+                    </div>
+
+                    <h3 class="project-title">
+                        📋 Análisis de Requerimientos BabyIMMA
+                    </h3>
+
+                    <span class="project-type">
+                        Talento Joven · Grupo Petroil
+                    </span>
+
+                    <p class="project-description">
+                        Participé en el análisis de requerimientos durante Talento Joven en Grupo Petroil,
+                        realizando reuniones con el equipo, documentación de funcionalidades y revisión
+                        de prototipos de pantalla para definir las necesidades del sistema.
+                    </p>
+
+                </div>
+
+
+                <!-- =================================
+                     PROYECTO 2 - DIF
+                ================================== -->
+
+                <div class="project-card">
+
+                    <div 
+                        class="project-image"
+                        onclick="openModal('modal2')"
+                        role="button"
+                        tabindex="0"
+                        aria-label="Ver imágenes del Sistema de Control de Pacientes DIF"
+                    >
+
+                        <img 
+                            src="img/1.png"
+                            alt="Sistema de Control de Pacientes DIF"
+                            style="width:100%; height:100%; border-radius:15px; object-fit:cover;"
+                        />
+
+                    </div>
+
+                    <h3 class="project-title">
+                        🏥 Sistema de Control de Pacientes DIF
+                    </h3>
+
+                    <span class="project-type">
+                        Proyecto universitario · Empresa real
+                    </span>
+
+                    <p class="project-description">
+                        Participé como Project Manager universitaria, coordinando al equipo en el análisis,
+                        diseño y desarrollo de una aplicación web para la gestión de pacientes, consultas,
+                        recetas, expedientes y medicamentos, con seguimiento y retroalimentación por parte
+                        de la empresa.
+                    </p>
+
+                </div>
+
+
+                <!-- =================================
+                     PROYECTO 3 - RANCHO LAS CABRAS
+                ================================== -->
+
+                <div class="project-card">
+
+                    <div 
+                        class="project-image"
+                        onclick="openModal('modal3')"
+                        role="button"
+                        tabindex="0"
+                        aria-label="Ver imágenes del Sistema de Control de Pagos Rancho Las Cabras"
+                    >
+
+                        <img 
+                            src="img/280.jpg"
+                            alt="Sistema de Control de Pagos Rancho Las Cabras"
+                            style="width:100%; height:100%; border-radius:15px; object-fit:cover;"
+                        />
+
+                    </div>
+
+                    <h3 class="project-title">
+                        💳 Sistema de Control de Pagos "Rancho Las Cabras"
+                    </h3>
+
+                    <span class="project-type">
+                        Proyecto universitario · Empresa real
+                    </span>
+
+                    <p class="project-description">
+                        Proyecto realizado en colaboración con una compañera para una empresa real,
+                        participando en el análisis, diseño y desarrollo de una aplicación orientada
+                        a facilitar la gestión y control de pagos.
+                    </p>
+
+                </div>
+
+
+                <!-- =================================
+                     PROYECTO 4 - PANADERÍA
+                ================================== -->
+
+                <div class="project-card">
+
+                    <div 
+                        class="project-image"
+                        onclick="openModal('modal4')"
+                        role="button"
+                        tabindex="0"
+                        aria-label="Ver imágenes del Sistema para la Panadería Omares"
+                    >
+
+                        <img 
+                            src="img/22.png"
+                            alt="Sistema para la Panadería Omares"
+                            style="width:100%; height:100%; border-radius:15px; object-fit:cover;"
+                        />
+
+                    </div>
+
+                    <h3 class="project-title">
+                        🥖 Sistema para la Panadería Omares
+                    </h3>
+
+                    <span class="project-type">
+                        Proyecto universitario
+                    </span>
+
+                    <p class="project-description">
+                        Desarrollé un sistema para gestionar productos, registrar ventas, generar reportes,
+                        organizar pedidos por cliente y controlar el inventario, buscando optimizar los
+                        procesos internos del negocio.
+                    </p>
+
+                </div>
+
+
+                <!-- =================================
+                     PROYECTO 5 - OCÉANO
+                ================================== -->
+
+                <div class="project-card">
+
+                    <div 
+                        class="project-image"
+                        onclick="openModal('modal5')"
+                        role="button"
+                        tabindex="0"
+                        aria-label="Ver imágenes de Exploradores del Océano"
+                    >
+
+                        <img 
+                            src="img/31.png"
+                            alt="Exploradores del Océano"
+                            style="width:100%; height:100%; border-radius:15px; object-fit:cover;"
+                        />
+
+                    </div>
+
+                    <h3 class="project-title">
+                        🌊 Exploradores del Océano
+                    </h3>
+
+                    <span class="project-type">
+                        Proyecto académico
+                    </span>
+
+                    <p class="project-description">
+                        Desarrollé un videojuego interactivo tipo trivia enfocado en promover el conocimiento
+                        y cuidado de los animales marinos. Incluye registro de usuarios, navegación por
+                        especies, preguntas, retroalimentación visual y puntuación final.
+                    </p>
+
+                </div>
+
+
+                <!-- =================================
+                     PROYECTO 6 - PIE FELIZ
+                ================================== -->
+
+                <div class="project-card">
+
+                    <div 
+                        class="project-image"
+                        onclick="openModal('modal6')"
+                        role="button"
+                        tabindex="0"
+                        aria-label="Ver imágenes del Prototipo Zapatería Pie Feliz"
+                    >
+
+                        <img 
+                            src="img/portada.png"
+                            alt="Prototipo Zapatería Pie Feliz"
+                            style="width:100%; height:100%; border-radius:15px; object-fit:cover;"
+                        />
+
+                    </div>
+
+                    <h3 class="project-title">
+                        👟 Prototipo Zapatería "Pie Feliz"
+                    </h3>
+
+                    <span class="project-type">
+                        Proyecto de diseño
+                    </span>
+
+                    <p class="project-description">
+                        Diseñé un prototipo web para una zapatería ficticia, con catálogo de productos,
+                        navegación y simulación de interacción para representar el funcionamiento de una
+                        tienda en línea.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             TECNOLOGÍAS
+        ========================== -->
+
+        <section class="skills-section" id="skills">
+
+            <h2 class="section-title">
+                💻 Tecnologías
+            </h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <div class="skill-name">HTML</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <div class="skill-name">CSS</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">✨</div>
+                    <div class="skill-name">JavaScript</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🐘</div>
+                    <div class="skill-name">PHP</div>
+                </div>
+
+                    <div class="skill-card">
+            <div class="skill-icon">🔴</div>
+            <div class="skill-name">Laravel</div>
+        </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🐬</div>
+                    <div class="skill-name">MySQL</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <div class="skill-name">Python</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <div class="skill-name">Flutter</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🗃️</div>
+                    <div class="skill-name">Supabase</div>
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 HERRAMIENTAS
+            ========================== -->
+
+            <h2 class="section-title">
+                🛠️ Herramientas
+            </h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon">📐</div>
+                    <div class="skill-name">Figma</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🐙</div>
+                    <div class="skill-name">GitHub</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <div class="skill-name">VS Code</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <div class="skill-name">XAMPP</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🤩</div>
+                    <div class="skill-name">Trello</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">💬</div>
+                    <div class="skill-name">Slack</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">📤</div>
+                    <div class="skill-name">FileZilla</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">📓</div>
+                    <div class="skill-name">Jupyter Notebook</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <div class="skill-name">Canva</div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">✏️</div>
+                    <div class="skill-name">Adobe Illustrator</div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+
+        <footer>
+            &copy; 2026 Denisse Vianey Jara
+        </footer>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         MODAL 1 - BABYIMMA
+    ====================================================== -->
+
+    <div id="modal1" class="modal" onclick="closeModal('modal1')">
+
+        <div class="modal-content" onclick="event.stopPropagation()">
+
+            <span 
+                class="close"
+                onclick="closeModal('modal1')"
+                aria-label="Cerrar"
+            >
+                &times;
+            </span>
+
+            <img src="img/17.png" alt="BabyIMMA - Análisis de requerimientos" style="width: 100%; border-radius: 20px;" />
+            <img src="img/18.png" alt="BabyIMMA - Análisis de requerimientos" style="width: 100%; border-radius: 20px;" />
+            <img src="img/19.png" alt="BabyIMMA - Análisis de requerimientos" style="width: 100%; border-radius: 20px;" />
+            <img src="img/20.png" alt="BabyIMMA - Análisis de requerimientos" style="width: 100%; border-radius: 20px;" />
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         MODAL 2 - DIF
+    ====================================================== -->
+
+    <div id="modal2" class="modal" onclick="closeModal('modal2')">
+
+        <div class="modal-content" onclick="event.stopPropagation()">
+
+            <span 
+                class="close"
+                onclick="closeModal('modal2')"
+                aria-label="Cerrar"
+            >
+                &times;
+            </span>
+
+            <img src="img/1.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/2.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/3.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/4.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/5.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/6.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/7.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/8.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/9.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/10.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/11.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/12.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/13.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/14.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/15.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+            <img src="img/16.png" alt="Sistema de Control de Pacientes DIF" style="width: 100%; border-radius: 20px;" />
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         MODAL 3 - RANCHO LAS CABRAS
+    ====================================================== -->
+
+    <div id="modal3" class="modal" onclick="closeModal('modal3')">
+
+        <div class="modal-content" onclick="event.stopPropagation()">
+
+            <span 
+                class="close"
+                onclick="closeModal('modal3')"
+                aria-label="Cerrar"
+            >
+                &times;
+            </span>
+
+            <img src="img/280.jpg" alt="Sistema de Control de Pagos Rancho Las Cabras" style="width: 100%; border-radius: 20px;" />
+            <img src="img/22.jpg" alt="Sistema de Control de Pagos Rancho Las Cabras" style="width: 100%; border-radius: 20px;" />
+            <img src="img/23.jpg" alt="Sistema de Control de Pagos Rancho Las Cabras" style="width: 100%; border-radius: 20px;" />
+            <img src="img/24.jpg" alt="Sistema de Control de Pagos Rancho Las Cabras" style="width: 100%; border-radius: 20px;" />
+            <img src="img/25.jpg" alt="Sistema de Control de Pagos Rancho Las Cabras" style="width: 100%; border-radius: 20px;" />
+            <img src="img/26.jpg" alt="Sistema de Control de Pagos Rancho Las Cabras" style="width: 100%; border-radius: 20px;" />
+            <img src="img/27.jpg" alt="Sistema de Control de Pagos Rancho Las Cabras" style="width: 100%; border-radius: 20px;" />
+            <img src="img/28.jpg" alt="Sistema de Control de Pagos Rancho Las Cabras" style="width: 100%; border-radius: 20px;" />
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         MODAL 4 - PANADERÍA OMARES
+    ====================================================== -->
+
+    <div id="modal4" class="modal" onclick="closeModal('modal4')">
+
+        <div class="modal-content" onclick="event.stopPropagation()">
+
+            <span 
+                class="close"
+                onclick="closeModal('modal4')"
+                aria-label="Cerrar"
+            >
+                &times;
+            </span>
+
+            <img src="img/22.png" alt="Sistema para la Panadería Omares" style="width: 100%; border-radius: 20px;" />
+            <img src="img/23.png" alt="Sistema para la Panadería Omares" style="width: 100%; border-radius: 20px;" />
+            <img src="img/24.png" alt="Sistema para la Panadería Omares" style="width: 100%; border-radius: 20px;" />
+            <img src="img/25.png" alt="Sistema para la Panadería Omares" style="width: 100%; border-radius: 20px;" />
+            <img src="img/26.png" alt="Sistema para la Panadería Omares" style="width: 100%; border-radius: 20px;" />
+            <img src="img/27.png" alt="Sistema para la Panadería Omares" style="width: 100%; border-radius: 20px;" />
+            <img src="img/28.png" alt="Sistema para la Panadería Omares" style="width: 100%; border-radius: 20px;" />
+            <img src="img/29.png" alt="Sistema para la Panadería Omares" style="width: 100%; border-radius: 20px;" />
+            <img src="img/30.png" alt="Sistema para la Panadería Omares" style="width: 100%; border-radius: 20px;" />
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         MODAL 5 - EXPLORADORES DEL OCÉANO
+    ====================================================== -->
+
+    <div id="modal5" class="modal" onclick="closeModal('modal5')">
+
+        <div class="modal-content" onclick="event.stopPropagation()">
+
+            <span 
+                class="close"
+                onclick="closeModal('modal5')"
+                aria-label="Cerrar"
+            >
+                &times;
+            </span>
+
+            <img src="img/31.png" alt="Exploradores del Océano" style="width: 100%; border-radius: 20px;" />
+            <img src="img/32.png" alt="Exploradores del Océano" style="width: 100%; border-radius: 20px;" />
+            <img src="img/33.png" alt="Exploradores del Océano" style="width: 100%; border-radius: 20px;" />
+            <img src="img/34.png" alt="Exploradores del Océano" style="width: 100%; border-radius: 20px;" />
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         MODAL 6 - PIE FELIZ
+    ====================================================== -->
+
+    <div id="modal6" class="modal" onclick="closeModal('modal6')">
+
+        <div class="modal-content" onclick="event.stopPropagation()">
+
+            <span 
+                class="close"
+                onclick="closeModal('modal6')"
+                aria-label="Cerrar"
+            >
+                &times;
+            </span>
+
+            <img src="img/35.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/36.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/37.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/portada.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/38.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/39.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/40.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/41.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/42.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/43.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/44.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/45.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/46.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/47.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/48.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/49.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/50.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/51.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+            <img src="img/52.png" alt="Prototipo Zapatería Pie Feliz" style="width: 100%; border-radius: 20px;" />
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script>
+
+        /* =========================
+           ABRIR MODAL
+        ========================== */
+
+        function openModal(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+
+
+        /* =========================
+           CERRAR MODAL
+        ========================== */
+
+        function closeModal(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+
+
+        /* =========================
+           ABRIR CON ENTER / ESPACIO
+        ========================== */
+
+        document.querySelectorAll('.project-image').forEach(el => {
+
+            el.addEventListener('keydown', e => {
+
+                if (e.key === 'Enter' || e.key === ' ') {
+
+                    e.preventDefault();
+
+                    el.click();
+
+                }
+
+            });
+
+        });
+
+
+        /* =========================
+           CERRAR MODAL CON ESC
+        ========================== */
+
+        document.addEventListener('keydown', e => {
+
+            if (e.key === 'Escape') {
+
+                document.querySelectorAll('.modal').forEach(modal => {
+
+                    modal.style.display = 'none';
+
+                });
+
+            }
+
+        });
+
+
+        /* =========================
+           SERVICE WORKER
+        ========================== */
+
+        if ('serviceWorker' in navigator) {
+
+            window.addEventListener('load', () => {
+
+                navigator.serviceWorker.register('serviceworker.js')
+                    .then(() => {
+                        console.log('Service Worker registrado correctamente');
+                    })
+                    .catch(error => {
+                        console.error('Error al registrar el Service Worker:', error);
+                    });
+
+            });
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
