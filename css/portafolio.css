@@ -463,3 +463,7 @@ footer {
     }
 
 }
+.project-description,
+.subtitle {
+    text-align: justify;
+}
